@@ -392,6 +392,13 @@
     grid-column-end: 2;
   }
 }
+@media (min-width: 750px) {
+  #nav-reasons {
+    display: grid;
+    align-items: start;
+    align-items: center;
+  }
+}
 @property --tw-font-weight {
   syntax: "*";
   inherits: false;
