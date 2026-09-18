@@ -1,1 +1,32 @@
 @import "tailwindcss";
+
+@media (min-width: 750px) {
+  #nav-links {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+  }
+
+  #nav-link-4 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+
+}
+
+@media (min-width: 1000px) {
+  #nav-links{
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+  }
+
+  #nav-link-5{
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+
+  #nav-link-4{
+    grid-column: 2;
+    grid-column-end:  2;
+  }
+}
